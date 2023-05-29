@@ -14,7 +14,7 @@ Rješenje problema koristi tri metode pretraživanja: pretraživanje u dubinu (D
 
 - **Pretraživanje u širinu (BFS)**: Ova metoda počinje od početnog stanja i slijedi sve susjedne čvorove prije nego pređe na sljedeću razinu. U kontekstu problema, BFS će istraživati susjedna polja redom, sloj po sloj, dok ne pronađe novčić ili ne istraži cijelu mapu.
 
-- **Algoritam A* s proizvoljno odabranom heuristikom**: Algoritam A* kombinira pretraživanje s gledišta najmanjeg troška (koristeći heuristiku) i pretraživanje s gledišta najmanje udaljenosti. Odabire se proizvoljna heuristika koja će procjenjivati udaljenost do ciljnog stanja, tj. položaja novčića. Algoritam A* će pronaći najkraći put do ciljnog stanja na temelju procjene heuristike. Heuristika korištena u ovom projektu prioritizira matrice u kojima su novčići stavljeni na pozicije između što više brojeva. 
+- ***Algoritam A* s proizvoljno odabranom heuristikom**: Algoritam A* kombinira pretraživanje s gledišta najmanjeg troška (koristeći heuristiku) i pretraživanje s gledišta najmanje udaljenosti. Odabire se proizvoljna heuristika koja će procjenjivati udaljenost do ciljnog stanja, tj. položaja novčića. Algoritam A* će pronaći najkraći put do ciljnog stanja na temelju procjene heuristike. Heuristika korištena u ovom projektu prioritizira matrice u kojima su novčići stavljeni na pozicije između što više brojeva. 
 
 ## Metodologija
 
